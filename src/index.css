@@ -1,3 +1,55 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: #223;
+  background: url("https://e0.pxfuel.com/wallpapers/280/507/desktop-wallpaper-old-wood-table-texture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.frame {
+  margin: 10%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 15vw;
+  height: 15vw;
+  background-image: url("https://img.freepik.com/free-photo/abstract-black-white-marble-textured-background_53876-104630.jpg?w=740&t=st=1684179148~exp=1684179748~hmac=6af3a57ebb2ba58c5e6df8c12bb7ccef0b4a48819b1efb6702a46c3bfc7117bd");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  border-radius: 10%;
+  border-style: inset;
+  border: 3px solid #262626;
+  box-shadow: 20px 20px 60px 20px;
+}
+
+.result img{
+  width: 100%;
+  filter: invert(1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: difference;
+}
+
+.roll {
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 2vw;
+  margin: 20px;
 }
